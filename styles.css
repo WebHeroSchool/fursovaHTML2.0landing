@@ -1,3 +1,24 @@
-.title{
+.title {
   font-family:Roboto;
+}
+.wrapper{
+  width: 80%;
+  margin: auto;
+}
+.menu_item {
+  padding: 0 13px;
+}
+.menu_item:last-child{
+  padding-right: 0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  padding: 40px 0;
+}
+.menu{
+  display:flex;
+  align-items: center;
 }
