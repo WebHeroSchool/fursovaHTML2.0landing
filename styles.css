@@ -34,7 +34,7 @@
   width: 100%;
 }
 .header{
-  padding: 40px 0;
+  /*padding: 40px 0;*/
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
@@ -95,4 +95,32 @@ font: 18px/24px Roboto,arial,helvetica,sans-serif;
 }
 .main__title-text_highlight{
   background: #ecf3ff;
+}
+@media (max-width:812px) {
+  .menu {
+    display: none;
+  }
+  .header {
+    margin-bottom:28px;
+   }
+   .main {
+     text-align: center;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+   }
+   .main__title{
+    margin-bottom: 44px;
+    font: bold 30px/39px pt_serifbold,arial,helvetica,sans-serif;
+   }
+   .main__subtitle{
+     margin-bottom: 25px;
+     font:500 16px/19px Roboto,arial,helvetica,sans-serif;
+   }
+   .main__botton{
+     font: 500 14px/16px Roboto,arial,helvetica,sans-serif;
+   }
+   .logo {
+  
+   }
 }
