@@ -137,6 +137,7 @@ font: 18px/24px 'Roboto',arial,helvetica,sans-serif;
     justify-content: center;
     align-items: center;
     }
+
     #menu__icon{
       opacity: 0;
     }
@@ -188,9 +189,7 @@ font: 18px/24px 'Roboto',arial,helvetica,sans-serif;
       display: block;
       padding: 12px 24px;
       color: black;
-      font-family: 'Roboto', sans-serif;
-      font-size: 25px;
-      font-weight: 600;
+      font: 500 18px/21px 'Roboto', arial,helvetica,sans-serif;
       text-decoration: none;
     }
     .menu__item:hover {
