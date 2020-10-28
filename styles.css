@@ -136,6 +136,7 @@ font: 18px/24px 'Roboto',arial,helvetica,sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
     }
 
     #menu__icon{
@@ -147,6 +148,7 @@ font: 18px/24px 'Roboto',arial,helvetica,sans-serif;
       background-color: #0056ec;
       display: block;
       position: absolute;
+      z-index: 1;
 
     }
     .menu__btn::before {
@@ -182,7 +184,7 @@ font: 18px/24px 'Roboto',arial,helvetica,sans-serif;
       list-style: none;
       text-align: center;
       background-color: white;
-
+      z-index: 2;
     }
     .menu__item {
       position: relative;
@@ -191,7 +193,10 @@ font: 18px/24px 'Roboto',arial,helvetica,sans-serif;
       color: black;
       font: 500 18px/21px 'Roboto', arial,helvetica,sans-serif;
       text-decoration: none;
-    }
+      /*border: 1px solid red;
+      margin-right:50px;*/
+}
+      }
     .menu__item:hover {
      opacity: 0.5;
      background-color: white;
