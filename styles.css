@@ -34,10 +34,11 @@
   width: 100%;
 }
 .header{
-  padding: 30px 0;
+  /*padding: 20px 0;*/
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
+  border: 1px solid red;
 }
 .logo{
   position: relative;
@@ -73,15 +74,18 @@
   padding-top: 100px;
   padding-bottom: 100px;
   background: 100% 50% no-repeat url(img/mainimg.svg);
-  background-size: 700px 600px;
+  background-size: 770px 657px;
+  border: 1px solid red;
 }
 .main__title{
-margin: 0 0 40px 0 ;
+margin: 0 0 30px 0 ;
 font:66px pt_serifbold, arial, helvetica, sans-serif;
+border: 1px solid red;
 }
 .main__subtitle{
 margin: 0 0 40px 0 ;
-font: 18px/24px 'Roboto',arial,helvetica,sans-serif;
+font: 22px 'Roboto',arial,helvetica,sans-serif;
+border: 1px solid red;
 }
 .main__botton{
   font: 18px 'Roboto', arial,helvetica,sans-serif;
@@ -92,6 +96,8 @@ font: 18px/24px 'Roboto',arial,helvetica,sans-serif;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
+  border: 1px solid red;
+  text-align: center;
 }
 .main__botton:hover{
   opacity: .5;
@@ -103,7 +109,7 @@ font: 18px/24px 'Roboto',arial,helvetica,sans-serif;
   display: none;
 }
 
-@media (max-width:812px) {
+@media (max-width:575px) {
    .menu {
       display: none;
     }
@@ -216,4 +222,10 @@ font: 18px/24px 'Roboto',arial,helvetica,sans-serif;
       visibility: visible;
       left: 0;
      }
+}
+@media (max-width:1024px) {
+
+}
+@media (max-width:1366px){
+
 }
