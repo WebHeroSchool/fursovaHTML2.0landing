@@ -1,3 +1,6 @@
+.body{
+  margin: none;
+}
 .logo {
   font-family:Roboto;
 }
@@ -224,8 +227,15 @@ border: 1px solid red;
      }
 }
 @media (max-width:1024px) {
-
+  width: 80%;
+}
+.main {
+  background: 100% 50% no-repeat url(img/mainimg.svg);
+  background-size: 514px 439px;
+}
+.main__title{
+  font-size: 55px;
 }
 @media (max-width:1366px){
-
+  width: 80%;
 }
