@@ -40,7 +40,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
   }
   .logo{
     position: relative;
@@ -77,17 +77,18 @@
     padding-bottom: 100px;
     background: no-repeat url(img/mainimg.svg);
     background-size: 50%;
+    background-position: top right;
     /*border: 1px solid red;*/
   }
   .main__title{
   margin: 0 0 30px 0 ;
   font:66px pt_serifbold, arial, helvetica, sans-serif;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   }
   .main__subtitle{
   margin: 0 0 40px 0 ;
   font: 22px 'Roboto',arial,helvetica,sans-serif;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   }
   .main__botton{
     font: 18px 'Roboto', arial,helvetica,sans-serif;
@@ -98,7 +99,7 @@
     text-decoration: none;
     border-radius: 4px;
     transition: opacity .5s;
-    border: 1px solid red;
+  /*  border: 1px solid red;*/
     text-align: center;
   }
   .main__botton:hover{
@@ -142,7 +143,7 @@
        }
        .main__title{
         margin-bottom: 44px;
-        font: bold 66px 'pt_serifbold',arial,helvetica,sans-serif;
+        font: bold 30px 'pt_serifbold',arial,helvetica,sans-serif;
        }
        .main__subtitle{
          margin-bottom: 25px;
