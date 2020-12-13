@@ -2,18 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>app.creation</title>
     <link rel ="stylesheet" href="styles.css">
     <link rel ="stylesheet" href="fonts.css">
-    <link rel ="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel ="stylesheet" href="https://fonts.google.com/specimen/Roboto">
   </head>
   <body>
     <div class="wrapper">
-    <header class="header">
-     <div class="logo">
+      <header class="header">
+        <div class="logo">
        <div class="logo__circle logo__circle_color_dark-blue"></div>
        <div class="logo__circle logo__circle_color_blue"></div>
-       app.creation
+       <a>app.creation</a>
+     </div>
+  <div class="hamburger-menu">
+             <input id="menu__icon" type="checkbox"/>
+             <label class="menu__btn" for="menu__icon">
+               <span></span>
+             </label>
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#">start</a></li>
+            <li><a class="menu__item" href="#">services</a></li>
+            <li><a class="menu__item" href="#">about</a></li>
+            <li><a class="menu__item" href="#">blog</a></li>
+            <li><a class="menu__item" href="#">contact us</a></li>
+          </ul>
      </div>
       <nav class="menu">
         <a class="menu__item" href="">start</a>
@@ -30,7 +44,8 @@
           Without Design</br> Expertise?
         </span>
         </h1>
-        <p class="main__subtitle">I help tech startups design better digital</br> products without hiring a full-time designer</p>
+        <p class="main__subtitle">I help tech startups design better digital
+          products without hiring a&nbsp;full-time designer</p>
         <a class="main__botton" href="">
           Schedule free consultation
         </a>
