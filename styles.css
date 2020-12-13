@@ -116,13 +116,11 @@ width: 80%;
     }
     .header{
       margin-bottom: 0;
-     border: 1px solid red;
     }
     .main{
     padding-right: 50%;
       padding-top: 90px;
       background-position: center right;
-    border: 1px solid red;
     }
     .main__title{
       font-size:50px;
@@ -140,7 +138,6 @@ width: 80%;
     text-decoration: none;
     border-radius: 4px;
     transition: opacity .5s;
-    border: 1px solid red;
   }
   @media (max-width:1024px) {
   .wrapper{
@@ -176,7 +173,9 @@ width: 80%;
       .main__botton{
            font: 500 14px/16px 'Roboto',arial,helvetica,sans-serif;
          }
-      a { display: none;}
+      a {
+         display: none;
+       }
       .hamburger-menu {
         width: 30px;
         height: 30px;
